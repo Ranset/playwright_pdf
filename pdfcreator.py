@@ -4,8 +4,8 @@ import os
 
 # 1. Prepare your dynamic data
 data = {
-    "title": "Monthly Report",
-    "user": "Alex",
+    "title": "Invoice",
+    "user": {"name": "Carlos", "surname": "Ace", "age": 37},
     "items": ["Automation", "Reporting", "Testing"]
 }
 

@@ -17,7 +17,7 @@
 <div class="page-content container">
     <div class="page-header text-blue-d2">
         <h1 class="page-title text-secondary-d1">
-            Invoice
+            {{title}}
             <small class="page-info">
                 <i class="fa fa-angle-double-right text-80"></i>
                 ID: #111-222
@@ -57,7 +57,7 @@
                     <div class="col-sm-6">
                         <div>
                             <span class="text-sm text-grey-m2 align-middle">To:</span>
-                            <span class="text-600 text-110 text-blue align-middle">Alex Doe</span>
+                            <span class="text-600 text-110 text-blue align-middle">{{user.name}} {{user.surname}}, {{user.age}} years old</span>
                         </div>
                         <div class="text-grey-m2">
                             <div class="my-1">
@@ -100,7 +100,7 @@
                     <div class="text-95 text-secondary-d3">
                         <div class="row mb-2 mb-sm-0 py-25">
                             <div class="d-none d-sm-block col-1">1</div>
-                            <div class="col-9 col-sm-5">Domain registration</div>
+                            <div class="col-9 col-sm-5">{{items[0]}}</div>
                             <div class="d-none d-sm-block col-2">2</div>
                             <div class="d-none d-sm-block col-2 text-95">$10</div>
                             <div class="col-2 text-secondary-d2">$20</div>
